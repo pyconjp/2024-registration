@@ -30,7 +30,7 @@ export default function Home() {
           {
             NUMBER_RANGE.map(({min, max}, index) =>
               <div key={index} className='flex-col flex-1 flex text-center self-stretch'>
-                <div className='flex flex-col mb-4'>
+                <div className='flex flex-col'>
                   <div>{min}</div>
                   <div>~</div>
                   <div>{max}</div>
