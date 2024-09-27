@@ -15,7 +15,7 @@ export default function Home() {
   const [number, setNumber] = useState(0);
 
   return (
-    <main className='h-[90vh] w-screen overflow-y-hidden'>
+    <main className='h-[90vh] w-screen'>
       <div className='p-10 h-[calc(100%_-_80px)]'>
         <input type='number' placeholder='Input Number' className='mb-6 border-b-gray-400 border-2 text-2xl'
                onChange={(e) => setNumber(Number.parseInt(e.target.value))}/>
